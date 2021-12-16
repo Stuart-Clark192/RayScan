@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5CE7145276B593800EE39D6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE7144276B593800EE39D6 /* Tests_iOS.swift */; };
+		C5CE7150276B593800EE39D6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE714F276B593800EE39D6 /* Tests_macOS.swift */; };
+		C5CE7152276B593800EE39D6 /* RayScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE7129276B592F00EE39D6 /* RayScanApp.swift */; };
+		C5CE7153276B593800EE39D6 /* RayScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE7129276B592F00EE39D6 /* RayScanApp.swift */; };
+		C5CE7154276B593800EE39D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE712A276B592F00EE39D6 /* ContentView.swift */; };
+		C5CE7155276B593800EE39D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE712A276B592F00EE39D6 /* ContentView.swift */; };
+		C5CE7156276B593800EE39D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5CE712B276B593700EE39D6 /* Assets.xcassets */; };
+		C5CE7157276B593800EE39D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5CE712B276B593700EE39D6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5CE7141276B593800EE39D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5CE7124276B592F00EE39D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5CE712F276B593700EE39D6;
+			remoteInfo = "RayScan (iOS)";
+		};
+		C5CE714C276B593800EE39D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5CE7124276B592F00EE39D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5CE7137276B593800EE39D6;
+			remoteInfo = "RayScan (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5CE7129276B592F00EE39D6 /* RayScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayScanApp.swift; sourceTree = "<group>"; };
+		C5CE712A276B592F00EE39D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5CE712B276B593700EE39D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5CE7130276B593700EE39D6 /* RayScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CE7133276B593800EE39D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CE7138276B593800EE39D6 /* RayScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CE713A276B593800EE39D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CE713B276B593800EE39D6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C5CE7140276B593800EE39D6 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CE7144276B593800EE39D6 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		C5CE7146276B593800EE39D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CE714B276B593800EE39D6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CE714F276B593800EE39D6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		C5CE7151276B593800EE39D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5CE712D276B593700EE39D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CE7135276B593800EE39D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CE713D276B593800EE39D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CE7148276B593800EE39D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5CE7123276B592F00EE39D6 = {
+			isa = PBXGroup;
+			children = (
+				C5CE7128276B592F00EE39D6 /* Shared */,
+				C5CE7132276B593800EE39D6 /* iOS */,
+				C5CE7139276B593800EE39D6 /* macOS */,
+				C5CE7143276B593800EE39D6 /* Tests iOS */,
+				C5CE714E276B593800EE39D6 /* Tests macOS */,
+				C5CE7131276B593700EE39D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5CE7128276B592F00EE39D6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C5CE7129276B592F00EE39D6 /* RayScanApp.swift */,
+				C5CE712A276B592F00EE39D6 /* ContentView.swift */,
+				C5CE712B276B593700EE39D6 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C5CE7131276B593700EE39D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5CE7130276B593700EE39D6 /* RayScan.app */,
+				C5CE7138276B593800EE39D6 /* RayScan.app */,
+				C5CE7140276B593800EE39D6 /* Tests iOS.xctest */,
+				C5CE714B276B593800EE39D6 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5CE7132276B593800EE39D6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C5CE7133276B593800EE39D6 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		C5CE7139276B593800EE39D6 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C5CE713A276B593800EE39D6 /* Info.plist */,
+				C5CE713B276B593800EE39D6 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		C5CE7143276B593800EE39D6 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C5CE7144276B593800EE39D6 /* Tests_iOS.swift */,
+				C5CE7146276B593800EE39D6 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		C5CE714E276B593800EE39D6 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C5CE714F276B593800EE39D6 /* Tests_macOS.swift */,
+				C5CE7151276B593800EE39D6 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5CE712F276B593700EE39D6 /* RayScan (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CE715A276B593800EE39D6 /* Build configuration list for PBXNativeTarget "RayScan (iOS)" */;
+			buildPhases = (
+				C5CE712C276B593700EE39D6 /* Sources */,
+				C5CE712D276B593700EE39D6 /* Frameworks */,
+				C5CE712E276B593700EE39D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RayScan (iOS)";
+			productName = "RayScan (iOS)";
+			productReference = C5CE7130276B593700EE39D6 /* RayScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5CE7137276B593800EE39D6 /* RayScan (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CE715D276B593800EE39D6 /* Build configuration list for PBXNativeTarget "RayScan (macOS)" */;
+			buildPhases = (
+				C5CE7134276B593800EE39D6 /* Sources */,
+				C5CE7135276B593800EE39D6 /* Frameworks */,
+				C5CE7136276B593800EE39D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RayScan (macOS)";
+			productName = "RayScan (macOS)";
+			productReference = C5CE7138276B593800EE39D6 /* RayScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5CE713F276B593800EE39D6 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CE7160276B593800EE39D6 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				C5CE713C276B593800EE39D6 /* Sources */,
+				C5CE713D276B593800EE39D6 /* Frameworks */,
+				C5CE713E276B593800EE39D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5CE7142276B593800EE39D6 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = C5CE7140276B593800EE39D6 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C5CE714A276B593800EE39D6 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CE7163276B593800EE39D6 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				C5CE7147276B593800EE39D6 /* Sources */,
+				C5CE7148276B593800EE39D6 /* Frameworks */,
+				C5CE7149276B593800EE39D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5CE714D276B593800EE39D6 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = C5CE714B276B593800EE39D6 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5CE7124276B592F00EE39D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C5CE712F276B593700EE39D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C5CE7137276B593800EE39D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C5CE713F276B593800EE39D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C5CE712F276B593700EE39D6;
+					};
+					C5CE714A276B593800EE39D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C5CE7137276B593800EE39D6;
+					};
+				};
+			};
+			buildConfigurationList = C5CE7127276B592F00EE39D6 /* Build configuration list for PBXProject "RayScan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5CE7123276B592F00EE39D6;
+			productRefGroup = C5CE7131276B593700EE39D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5CE712F276B593700EE39D6 /* RayScan (iOS) */,
+				C5CE7137276B593800EE39D6 /* RayScan (macOS) */,
+				C5CE713F276B593800EE39D6 /* Tests iOS */,
+				C5CE714A276B593800EE39D6 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5CE712E276B593700EE39D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CE7156276B593800EE39D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CE7136276B593800EE39D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CE7157276B593800EE39D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CE713E276B593800EE39D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CE7149276B593800EE39D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5CE712C276B593700EE39D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CE7154276B593800EE39D6 /* ContentView.swift in Sources */,
+				C5CE7152276B593800EE39D6 /* RayScanApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CE7134276B593800EE39D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CE7155276B593800EE39D6 /* ContentView.swift in Sources */,
+				C5CE7153276B593800EE39D6 /* RayScanApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CE713C276B593800EE39D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CE7145276B593800EE39D6 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CE7147276B593800EE39D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CE7150276B593800EE39D6 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5CE7142276B593800EE39D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5CE712F276B593700EE39D6 /* RayScan (iOS) */;
+			targetProxy = C5CE7141276B593800EE39D6 /* PBXContainerItemProxy */;
+		};
+		C5CE714D276B593800EE39D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5CE7137276B593800EE39D6 /* RayScan (macOS) */;
+			targetProxy = C5CE714C276B593800EE39D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5CE7158276B593800EE39D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5CE7159276B593800EE39D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C5CE715B276B593800EE39D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.test.RayScan;
+				PRODUCT_NAME = RayScan;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5CE715C276B593800EE39D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.test.RayScan;
+				PRODUCT_NAME = RayScan;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5CE715E276B593800EE39D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.test.RayScan;
+				PRODUCT_NAME = RayScan;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C5CE715F276B593800EE39D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.test.RayScan;
+				PRODUCT_NAME = RayScan;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C5CE7161276B593800EE39D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RayScan (iOS)";
+			};
+			name = Debug;
+		};
+		C5CE7162276B593800EE39D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RayScan (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5CE7164276B593800EE39D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "RayScan (macOS)";
+			};
+			name = Debug;
+		};
+		C5CE7165276B593800EE39D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "RayScan (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5CE7127276B592F00EE39D6 /* Build configuration list for PBXProject "RayScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CE7158276B593800EE39D6 /* Debug */,
+				C5CE7159276B593800EE39D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5CE715A276B593800EE39D6 /* Build configuration list for PBXNativeTarget "RayScan (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CE715B276B593800EE39D6 /* Debug */,
+				C5CE715C276B593800EE39D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5CE715D276B593800EE39D6 /* Build configuration list for PBXNativeTarget "RayScan (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CE715E276B593800EE39D6 /* Debug */,
+				C5CE715F276B593800EE39D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5CE7160276B593800EE39D6 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CE7161276B593800EE39D6 /* Debug */,
+				C5CE7162276B593800EE39D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5CE7163276B593800EE39D6 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CE7164276B593800EE39D6 /* Debug */,
+				C5CE7165276B593800EE39D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5CE7124276B592F00EE39D6 /* Project object */;
+}
