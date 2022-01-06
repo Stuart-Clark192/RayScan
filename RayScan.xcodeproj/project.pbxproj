@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C569CA3E2774954300DC63AD /* RayScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569CA3D2774954300DC63AD /* RayScanViewModel.swift */; };
+		C569CA3F2774954300DC63AD /* RayScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569CA3D2774954300DC63AD /* RayScanViewModel.swift */; };
+		C569CA412774970700DC63AD /* VectorMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569CA402774970700DC63AD /* VectorMath.swift */; };
+		C569CA422774970700DC63AD /* VectorMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569CA402774970700DC63AD /* VectorMath.swift */; };
 		C5CE7145276B593800EE39D6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE7144276B593800EE39D6 /* Tests_iOS.swift */; };
 		C5CE7150276B593800EE39D6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE714F276B593800EE39D6 /* Tests_macOS.swift */; };
 		C5CE7152276B593800EE39D6 /* RayScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE7129276B592F00EE39D6 /* RayScanApp.swift */; };
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C569CA3D2774954300DC63AD /* RayScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayScanViewModel.swift; sourceTree = "<group>"; };
+		C569CA402774970700DC63AD /* VectorMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorMath.swift; sourceTree = "<group>"; };
 		C5CE7129276B592F00EE39D6 /* RayScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayScanApp.swift; sourceTree = "<group>"; };
 		C5CE712A276B592F00EE39D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5CE712B276B593700EE39D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +107,8 @@
 				C5CE7129276B592F00EE39D6 /* RayScanApp.swift */,
 				C5CE712A276B592F00EE39D6 /* ContentView.swift */,
 				C5CE712B276B593700EE39D6 /* Assets.xcassets */,
+				C569CA3D2774954300DC63AD /* RayScanViewModel.swift */,
+				C569CA402774970700DC63AD /* VectorMath.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -308,6 +316,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C569CA412774970700DC63AD /* VectorMath.swift in Sources */,
+				C569CA3E2774954300DC63AD /* RayScanViewModel.swift in Sources */,
 				C5CE7154276B593800EE39D6 /* ContentView.swift in Sources */,
 				C5CE7152276B593800EE39D6 /* RayScanApp.swift in Sources */,
 			);
@@ -317,6 +327,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C569CA422774970700DC63AD /* VectorMath.swift in Sources */,
+				C569CA3F2774954300DC63AD /* RayScanViewModel.swift in Sources */,
 				C5CE7155276B593800EE39D6 /* ContentView.swift in Sources */,
 				C5CE7153276B593800EE39D6 /* RayScanApp.swift in Sources */,
 			);
